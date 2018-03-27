@@ -4,7 +4,7 @@
 #
 Name     : gnome-maps
 Version  : 3.26.2
-Release  : 1
+Release  : 2
 URL      : https://download.gnome.org/sources/gnome-maps/3.26/gnome-maps-3.26.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-maps/3.26/gnome-maps-3.26.2.tar.xz
 Summary  : No detailed summary available
