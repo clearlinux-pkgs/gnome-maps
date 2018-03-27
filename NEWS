@@ -1,38 +1,222 @@
-3.26.2 - Oct 30, 2017
+3.28.0 - Mar 12, 2018
 =========================
 
-Changes since 3.26.1
-  - Fix network detection when running as a Flatpak
+Changes since 3.27.92
+  - Change license of two files to GPL 2 or later (as was the original
+    intension and what the project as a whole is using)
 
-Added/updated/fixed translations:
+Added/updated/fixed translations
+  - Swedish
+  - Serbian (latin)
+  - Serbian
+  - Italian
+  - Greek
+  - Danish
+
+All contributors to this release:
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Ask Hjorth Larsen <asklarsen@gmail.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Gianvito Cavasoli <gianvito@gmx.it>
+Marcus Lundblad <ml@update.uu.se>
+Марко Костић <marko.m.kostic@gmail.com>
+Милош Поповић <gpopac@gmail.com>
+
+3.27.92 - Mar 5, 2018
+=========================
+
+Changes since 3.27.90
+  - Updated POI definitions for OpenStreetMap editing
+  - Fix a segmentation fault at exit
+  - Fix missing generated files and third-party licenses in the distributed
+    release archive
+  - Fix layout of shortcuts help overlay to better fit smaller screens
+
+Added/updated/fixed translations
+  - Lithuanian
+  - Kazakh
+  - Scottish Gaelic
+  - Vietnamese
   - Slovak
+  - Korean
+  - Latvian
+  - Finnish
+  - Dutch
+  - Turkish
+  - Czech
+  - Croatian
+  - Galician
+  - Brazilian Portuguese
+  - French
   - Polish
-  - Catalan (Valencian)
+
+All contributors to this release:
+Alain Lojewski <allomervan@gmail.com>
+Aurimas Černius <aurisc4@gmail.com>
+Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Dušan Kazik <prescott66@gmail.com>
+Emin Tufan Çetin <etcetin@gmail.com>
+Fran Dieguez <frandieguez@gnome.org>
+Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>
+Gun Chleoc <fios@foramnagaidhlig.net>
+gogo <trebelnik2@gmail.com>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Kwangseob Jeong <myddpp@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Marek Cernocky <marek_cernocky@conel.cz>
+Mattias Bengtsson <mattias.jc.bengtsson@gmail.com>
+Piotr Drąg <piotrdrag@gmail.com>
+Rafael Fontenelle <rafaelff@gnome.org>
+Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Simon McVittie <smcv@debian.org>
+Trần Ngọc Quân <vnwildman@gmail.com>
+
+3.27.90 - Feb 5, 2018
+=========================
+
+Changes since 3.27.90
+  - Use moder JS features (ES6), classes (with GObject.registerClass())
+    and arrow notation (=> () ) for binding anonymous functions
+  - Change default line with and color for layer lines in loaded layers to make
+    them more visible
+  - Don't select text in place entries in the routing sidebar when auto-completing
+  - Bugfixes for keyboard navigation in search entry completion popover
+  - Add additional tooltips for buttons in the routing sidebar
+  - Decrease height of OSM login dialog
+
+Added/updated/fixed translations
+  - Friulian
+  - Catalan
+  - Indonesian
+  - German
+  - Spanish
+  - Hungarian
+  - Finnish
+
+All contributors to this release:
+Balázs Meskó <meskobalazs@fedoraproject.org>
+Balázs Úr <balazs@urbalazs.hu>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Gil Forcada <gforcada@gnome.org>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Jordi Mas <jmas@softcatala.org>
+Kukuh Syafaat <syafaatkukuh@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Tim Sabsch <tim@sabsch.com>
+Tomasz Miąsko <tomasz.miasko@gmail.com>
+Vibhanshu Vaibhav <ayush.vibhanshu@gmail.com>
+
+3.27.4 - Jan 8, 2018
+=========================
+
+Changes since 3.27.3
+  - Show thumnails from Wikipedia in the place bubbles when availability
+  - Make the place bubble popovers follow the map when the view scrolls (i.e.
+    when using the keyboard shortcuts to scroll)
+  - Move the zoom control buttons to the headerbar to mitigate an issue with
+    Clutter and overlay GTK+ widgets on Wayland
+  - Adapt libgweather dependency to use gitlab.gnome.org for building Flatpaks
+
+Added/updated/fixed translations
+  - German
+  - Serbian
+  - Swedish
+  - Esperanto
+  - Turkish
+  - Czech
+  - Spanish
+  - Friulian
+
+All contributors to this release:
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Andreas Nilsson <anilsson@redhat.com>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Emin Tufan Çetin <etcetin@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Marcus Lundblad <ml@update.uu.se>
+Marek Černocký <marek@manet.cz>
+Mario Blättermann <mario.blaettermann@gmail.com>
+Марко Костић <marko.m.kostic@gmail.com>
+
+3.27.3 - Dec 11, 2017
+=========================
+
+Changes since 3.27.3
+  - Show tile provider and OSM attribution in the About dialog
+  - Install appstream metadata to non-deprecated location
+  - Update Flatpak manifest to build libgweather with Meson
+
+Added/updated/fixed translations
   - Icelandic
+  - Indonesian
+  - Czech
+
+All contributors to this release:
+Jeremy Bicha <jbicha@ubuntu.com>
+Kukuh Syafaat <syafaatkukuh@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Marek Cernocky <marek_cernocky@conel.cz>
+Sveinn í Felli <sv1@fellsnet.is>
+
+3.27.2 - Nov 13, 2017
+=========================
+
+Changes since 3.27.1
+  - Fix Maps to be available as an option for "Open with another application"
+    for geo shape layer files
+  - Fix JS warnings about redundant function arguments and similar things
+
+Added/updated/fixed translations
+  - Norwegian bokmål
+  - Hindi
+  - Croatian
+  - Friulian
+  - Czech
+  - Slovak
+  - German
 
 All contributors to this release:
 Dušan Kazik <prescott66@gmail.com>
+Dylan McCall <dylan@dylanmccall.com>
+Fabio Tomat <f.t.public@gmail.com>
+gogo <trebelnik2@gmail.com>
+Kjartan Maraas <kmaraas@gnome.org>
 Marcus Lundblad <ml@update.uu.se>
-Piotr Drąg <piotrdrag@gmail.com>
-Sveinn í Felli <sv1@fellsnet.is>
-Xavi Ivars <xavi.ivars@gmail.com>
+Marek Cernocky <marek_cernocky@conel.cz>
+Mario Blättermann <mario.blaettermann@gmail.com>
+Solomon Nadar <solomonsunder@gmail.com>
 
-3.26.1 - Oct 2, 2017
+3.27.1 - Oct 16, 2017
 =========================
 
 Changes since 3.26.0
+  - Use sidebar icon style for icons in the routing results
+  - Improve the look of route labels for public transit trips when using the
+    dark theme
+  - Add --version command line option
+  - Fix network detection when running as a Flatpak
+  - Update appdata screenshots
+  - Show stored routes according to locale direction
   - Avoid a GTK+ warning on startup
   - Export symbols from modules using var instead of const to comply with ES6
     and avoid a warning on newer GJS versions
 
-Added/updated/fixed translations:
-  - Greek
+Added/updated/fixed translations
+  - Polish
+  - Icelandic
   - Arabic
+  - Greek
 
 All contributors to this release:
+Anup Agarwal <108anup@gmail.com>
 Efstathios Iosifidis <eiosifidis@gnome.org>
 Khaled Hosny <khaledhosny@eglug.org>
 Marcus Lundblad <ml@update.uu.se>
+Piotr Drąg <piotrdrag@gmail.com>
+Sveinn í Felli <sv1@fellsnet.is>
+Xavi Ivars <xavi.ivars@gmail.com>
 
 3.26.0 - Sep 11, 2017
 =========================
