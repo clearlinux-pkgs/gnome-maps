@@ -1,54 +1,208 @@
-3.28.2 - May 7, 2018
+3.30.0 - Sep 3, 2018
 =========================
 
-Changes since 3.28.1
-  - Enable selecting map markers on touch screens
+Added/updated/fixed translations
+  - Danish
+  - Croatian
+  - Latvian
+  - Hungarian
+  - Vietnamese
+  - Italian
+  - Galician
+  - Korean
+
+All contributors to this release
+Ask Hjorth Larsen <asklarsen@gmail.com>
+Balázs Meskó <meskobalazs@fedoraproject.org>
+Fran Dieguez <frandieguez@gnome.org>
+Gianvito Cavasoli <gianvito@gmx.it>
+gogo <trebelnik2@gmail.com>
+Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
+Seong-ho Cho <shcho@gnome.org>
+Trần Ngọc Quân <vnwildman@gmail.com>
+
+3.29.92 - Aug 27, 2018
+=========================
+
+Changes since 3.29.91
+  - Updated POI definitions and translations for OSM editing
 
 Added/updated/fixed translations
-  - Italian
+  - Indonesian
+  - Finnish
+  - Kazakh
+  - Icelandic
+  - Czech
+
+All contributors to this release
+Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Marek Cernocky <marek_cernocky@conel.cz>
+Sveinn í Felli <sv1@fellsnet.is>
+
+3.29.91 - Aug 13, 2018
+=========================
+
+Changes since 3.29.90
+  - Don't spin up CI environments for master and tags
+
+Added/updated/fixed translations
   - Turkish
+  - Lithuanian
+  - Swedish
+  - French
   - German
-  - Hungarian
+  - Polish
+  - Slovenian
+
+All contributors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Aurimas Černius <aurisc4@gmail.com>
+Claude Paroz <claude@2xlibre.net>
+Emin Tufan Çetin <etcetin@gmail.com>
+Jordan Petridis <jordanpetridis@protonmail.com>
+Mario Blättermann <mario.blaettermann@gmail.com>
+Matej Urbančič <mateju@svn.gnome.org>
+Piotr Drąg <piotrdrag@gmail.com>
+
+3.29.90 - Jul 30, 2018
+=========================
+
+Changes since 3.29.4
+  - Add a Flatpak CI build/test job
+
+Added/updated/fixed translations
+  - French
+
+All contributors to this release
+Charles Monzat <charles.monzat@numericable.fr>
+Jordan Petridis <jordanpetridis@protonmail.com>
+Marcus Lundblad <ml@update.uu.se>
+
+3.29.4 - Jul 16, 2018
+=========================
+
+Changes since 3.29.3
+  - Use g_application_mark_busy() instead of the home-brewed busy marker
+  - Limit the number of via points in routing queries to 10 to avoid hitting
+    a limit in GraphHopper and also to better fit the UI
+  - Various Flatpak updates
+
+Added/updated/fixed translations
+  - Brazilian Portuguese
+  - Catalan
+  - Romanian
+  - Friulian
+  - Greek
+  - Chinese (Taiwan)
+  - Spanish
+
+All contributors to this release
+Alberto Fanjul <albertofanjul@gmail.com>
+Bruno Lopes da Silva <brunolopesbldsb@gmail.com>
+Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Daniel Șerbănescu <daniel@serbanescu.dk>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Fabio Tomat <f.t.public@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Pere Orga <pere@orga.cat>
+Vinayak Aggarwal <f20170008@goa.bits-pilani.ac.in>
+Yi-Jyun Pan <pan93412@gmail.com>
+
+3.29.3 - Jun 19, 2018
+=========================
+
+Changes since 3.29.1
+  - Stop using notifications on top of the map view as it doesn't
+    work on Wayland
+  - Add OARS tags
+
+Added/updated/fixed translations
+  - Chinese (Taiwan)
+  - Occitan
+  - Brazilian Portuguese
+  - Chinese (China)
 
 All contributors to this release:
-Balázs Meskó <meskobalazs@fedoraproject.org>
+Cédric Valmary <cvalmary@yahoo.fr>
+Enrico Nicoletto <liverig@gmail.com>
 Marcus Lundblad <ml@update.uu.se>
-Mario Blättermann <mario.blaettermann@gmail.com>
+Mingcong Bai <jeffbai@aosc.xyz>
+nick richards <nick.richards@gmail.com>
+Yi-Jyun Pan <pan93412@gmail.com>
+
+3.29.2 - May 21, 2018
+=========================
+
+Added/updated/fixed translations
+  - Chinese (China)
+  - Swedish
+  - Romanian
+  - Indonesian
+  - Italian
+  - Spanish
+  - Slovenian
+  - Greek
+  - Friulian
+  - Turkish
+
+All contributors to this release:
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Daniel Șerbănescu <daniel@serbanescu.dk>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Fabio Tomat <f.t.public@gmail.com>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Mandy Wang <wangmychn@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Matej Urbančič <mateju@svn.gnome.org>
 Milo Casagrande <milo@ubuntu.com>
 Muhammet Kara <muhammetk@gmail.com>
 
-3.28.1 - Apr 9, 2018
+3.29.1 - Apr 16, 2018
 =========================
 
 Changes since 3.28.0
-  - Fix an accidentally untranslated string
+  - Switch to build with Meson (also dropped support for building with
+    Autotools)
+  - Disable UI for switching between street and aerial view if the service
+    definition lacks aerial tile definitions (allows using a tile server not
+    supplying aerial tiles)
+  - Enable selecting map markers using touch
 
 Added/updated/fixed translations
+  - Croatian
+  - German
+  - Hungarian
   - Czech
   - Latvian
   - Lithuanian
   - Serbian
   - Dutch
   - Slovenian
-  - Russian
-  - Romanian
   - Croatian
   - Swedish
   - Brazilian Portuguese
   - Indonesian
   - French
   - Polish
+  - Romanian
+  - Russian
 
 All contributors to this release:
 Anders Jonsson <anders.jonsson@norsjovallen.se>
 Andika Triwidada <atriwidada@gnome.org>
 Aurimas Černius <aurisc4@gmail.com>
+Balázs Meskó <meskobalazs@fedoraproject.org>
 Charles Monzat <superboa@hotmail.fr>
 Daniel Șerbănescu <daniel@serbanescu.dk>
 gogo <trebelnik2@gmail.com>
 Justin van Steijn <jvs@fsfe.org>
 Marcus Lundblad <ml@update.uu.se>
 Marek Cernocky <marek_cernocky@conel.cz>
+Mario Blättermann <mario.blaettermann@gmail.com>
 Matej Urbančič <mateju@svn.gnome.org>
 Piotr Drąg <piotrdrag@gmail.com>
 Rafael Fontenelle <rafaelff@gnome.org>

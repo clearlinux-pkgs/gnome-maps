@@ -1,0 +1,9 @@
+3.30.0
+appstream-glib
+pkgconfig(champlain-0.12)
+pkgconfig(folks)
+pkgconfig(gee-0.8)
+pkgconfig(geoclue-2.0)
+pkgconfig(geocode-glib-1.0)
+pkgconfig(gjs-1.0)
+pkgconfig(rest-0.7)
