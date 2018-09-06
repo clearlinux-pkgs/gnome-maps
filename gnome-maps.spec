@@ -4,7 +4,7 @@
 #
 Name     : gnome-maps
 Version  : 3.30.0
-Release  : 9
+Release  : 10
 URL      : https://download.gnome.org/sources/gnome-maps/3.30/gnome-maps-3.30.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-maps/3.30/gnome-maps-3.30.0.tar.xz
 Summary  : No detailed summary available
