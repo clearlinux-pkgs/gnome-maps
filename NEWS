@@ -1,57 +1,199 @@
-3.30.3 - Dec 10, 2018
+3.32.0 - Mar 11, 2019
 =========================
 
-Changes since 3.30.2.1
+Changes since 3.31.92
+ - Translation updates
+
+Added/updated/fixed translations
+ - Esperanto
+ - Basque
+
+All contributors to this release
+Asier Sarasua Garmendia <asier.sarasua@gmail.com>
+Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+
+3.31.92 - Mar 4, 2019
+=========================
+
+Changes since 3.31.91
+ - Updated appdata screenshots (shown in i.e. GNOME Software)
+ - Fix displaying the proper application name in i.e. the gnome-shell overview
+   and the top bar menu since a regression earlier in the 3.31.x cycle
+ - Update POI type defintions and translations for OSM editing
+
+Added/updated/fixed translations
+ - Latvian
+ - Vietnamese
+ - German
+ - Serbian
+ - Italian
+ - Russian
+ - Brazilian Portuguese
+ - Korean
+ - Lithuanian
+ - Dutch
+ - Icelandic
+
+All contributors to this release
+Aurimas Černius <aurisc4@gmail.com>
+Gianvito Cavasoli <gianvito@gmx.it>
+James Westman <flyingpimonster@flyingpimonster.net>
+Jeeyong Um <conr2d@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Nathan Follens <nathan@anche.no>
+Rafael Fontenelle <rafaelff@gnome.org>
+Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
+Stas Solovey <whats_up@tut.by>
+Sveinn í Felli <sv1@fellsnet.is>
+Tim Sabsch <tim@sabsch.com>
+Trần Ngọc Quân <vnwildman@gmail.com>
+Марко Костић <marko.m.kostic@gmail.com>
+
+3.31.91 - Feb 18, 2019
+=========================
+
+Changes since 3.31.90
+ - Fix array parsing error when loading shape layers
+   when running with newer GJS
+
+Added/updated/fixed translations
+ - Chinese (Taiwan)
+ - Greek
+ - Kazakh
+ - Danish
+ - Catalan
+ - Polish
+ - Czech
+
+All contributors to this release
+Alan Mortensen <alanmortensen.am@gmail.com>
+Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Jordi Mas <jmas@softcatala.org>
+Marcus Lundblad <ml@update.uu.se>
+Marek Cernocky <marek_cernocky@conel.cz>
+Piotr Drąg <piotrdrag@gmail.com>
+Yi-Jyun Pan <pan93412@gmail.com>
+
+3.31.90 - Feb 4, 2019
+=========================
+
+Changes since 3.31.4
+ - Show live-updated thumbnails for the street/aerial layer switcher,
+   instead of (outdated) hard-code thumbnails
+ - Fix a bug where the scrollbar in the favorites popover didn't show up
+
+Added/updated/fixed translations
+ - Finnish
+ - Friulian
+ - French
+ - Turkish
+ - Indonesian
+ - Romanian
+ - Galician
+ - Hungarian
+ - Slovenian
+ - Swedish
+ - Spanish
+
+All contributors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Balázs Úr <balazs@urbalazs.hu>
+Claude Paroz <claude@2xlibre.net>
+Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Daniel Șerbănescu <daniel@serbanescu.dk>
+Fabio Tomat <f.t.public@gmail.com>
+Fran Dieguez <frandieguez@gnome.org>
+James Westman <flyingpimonster@flyingpimonster.net>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Matej Urbančič <mateju@svn.gnome.org>
+Sabri Ünal <libreajans@gmail.com>
+
+3.31.4 - Jan 7, 2019
+=========================
+
+Changes since 3.31.3
+ - Fix keyboard shortcut for quitting that was broken since
+   the application menu was moved to the headerbar
+ - Update GJS build dependency
+
+Added/updated/fixed translations
+ - Turkish
+ - Swedish
+ - Friulian
+ - Greek
+
+All contributors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Fabio Tomat <f.t.public@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Sabri Ünal <yakushabb@gmail.com>
+
+3.31.3 - Dec 10, 2018
+=========================
+
+Changes since 3.31.2
   - Fix loading contact's adresses with newer GJS
+  - Fix some array-related GJS deprecation warnings
+
+Added/updated/fixed translations
+  - Spanish
+
+All contributors to this release
+Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Jakub Steiner <jimmac@gmail.com>
+James Westman <flyingpimonster@flyingpimonster.net>
+Marcus Lundblad <ml@update.uu.se>
+
+3.31.2 - Nov 12, 2018
+=========================
+
+Changes since 3.31.1
+  - Move app menu to the headerbar
+  - Fix a crash that occured sometimes when activating "What's here?" from
+    the context menu
+  - Fix compiler warnings
 
 Added/updated/fixed translations
   - Esperanto
-
-All contributors to this release
-Carmen Bianca BAKKER <carmen@carmenbianca.eu>
-James Westman <flyingpimonster@flyingpimonster.net>
-
-3.30.2.1 - Nov 8, 2018
-=========================
-
-Changes since 3.30.2
-  - Fix version number in release tarball (3.30.2 was missing update of
-    meson.build)
-
-Added/updated/fixed translations
   - French
   - Slovak
+  - Malayalam
+  - Slovenian
+  - Czech
 
 All contributors to this release
+Anish Sheela <aneesh.nl@gmail.com>
+Carmen Bianca BAKKER <carmen@carmenbianca.eu>
 Charles Monzat <charles.monzat@numericable.fr>
+Debarshi Ray <debarshir@gnome.org>
 Dušan Kazik <prescott66@gmail.com>
-
-3.30.2 - Oct 22, 2018
-=========================
-
-Changes since 3.30.1
-  - Fix a crash that occured sometimes when activating "What's here?" from
-    the context menu
-
-Added/updated/fixed translations
-  - Serbian
-
-All contributors to this release
 Marcus Lundblad <ml@update.uu.se>
-Марко Костић <marko.m.kostic@gmail.com>
+Marek Cernocky <marek_cernocky@conel.cz>
+Matej Urbančič <mateju@svn.gnome.org>
+Piotr Drąg <piotrdrag@gmail.com>
 
-3.30.1 - Sep 24, 2018
+3.31.1 - Oct 8, 2018
 =========================
 
 Changes since 3.30.0
+  - Updated application icon
+  - Start all way zoomed out on first run
   - Fix shape layer file chooser not showing up
 
 Added/updated/fixed translations
+  - Serbian
   - Russian
 
 All contributors to this release
+FlyingPiMonster <flyingpimonster@flyingpimonster.net>
+Jakub Steiner <jimmac@gmail.com>
 Marcus Lundblad <ml@update.uu.se>
 Stas Solovey <whats_up@tut.by>
+Марко Костић <marko.m.kostic@gmail.com>
 
 3.30.0 - Sep 3, 2018
 =========================
