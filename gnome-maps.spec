@@ -4,7 +4,7 @@
 #
 Name     : gnome-maps
 Version  : 3.32.1
-Release  : 17
+Release  : 18
 URL      : https://download.gnome.org/sources/gnome-maps/3.32/gnome-maps-3.32.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-maps/3.32/gnome-maps-3.32.1.tar.xz
 Summary  : A simple GNOME 3 maps application
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1556988185
+export SOURCE_DATE_EPOCH=1557004052
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
