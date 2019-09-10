@@ -1,42 +1,209 @@
-3.32.2.1 - May 21, 2019
+3.34.0 - Sep 9, 2019
 =========================
 
-Changes since 3.32.2
- - Make the shape layer renderer use the tile size specified in the dynamic
-   service file, fixing an issue with misaligned shape layer (GeoJSON, GPX, KML)
-   rendering with the new 512 pixel tiles
-
 Added/updated/fixed translations
- - Chinese (China)
+ - Korean
+ - Brazilian Portuguese
+ - Croatian
+ - Greek
 
 All contributors to this release
-Dz Chen <wsxy162@gmail.com>
-Marcus Lundblad <ml@update.uu.se>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Goran Vidović <trebelnik2@gmail.com>
+Rafael Fontenelle <rafaelff@gnome.org>
+Seong-ho Cho <shcho@gnome.org>
 
-3.32.2 - May 6, 2019
+3.33.92 - Sep 2, 2019
 =========================
 
-Changes since 3.32.1
- - Remove some unnessesary instructions in turn-by-turn route searches
+Changes since 3.33.91
+ - Update OSM POI types
+ - Fix performance issue when there's lots of location updates
 
 Added/updated/fixed translations
+ - Czech
+ - French
  - Danish
+ - Turkish
+ - British English
+ - Serbian
+ - Catalan
+ - Galician
+ - Hungarian
+ - Slovenian
+ - Latvian
+ - German
+ - Polish
+ - Lithuanian
 
 All contributors to this release
+Ahmet Elgün <ahmetelgn@gmail.com>
 Ask Hjorth Larsen <asklarsen@gmail.com>
+Aurimas Černius <aurisc4@gmail.com>
+Balázs Úr <balazs@urbalazs.hu>
+Charles Monzat <charles.monzat@free.fr>
+Daniel Rusek <mail@asciiwolf.com>
+Fran Dieguez <frandieguez@gnome.org>
+Jordi Mas <jmas@softcatala.org>
 Marcus Lundblad <ml@update.uu.se>
+Marek Černocký <marek@manet.cz>
+Matej Urbančič <mateju@svn.gnome.org>
+Piotr Drąg <piotrdrag@gmail.com>
+Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
+Tim Sabsch <tim@sabsch.com>
+Valentin Blot <14005-vblot@users.noreply.gitlab.gnome.org>
+Zander Brown <zbrown@gnome.org>
+Марко Костић <marko.m.kostic@gmail.com>
 
-3.32.1 - Mar 31, 2019
+3.33.91 - Aug 19, 2019
 =========================
 
-Changes since 3.32.0
- - Translation updates
+Added/updated/fixed translations
+ - Swedish
+ - Catalan
+ - Finnish
+ - Basque
+ - Indonesian
+ - Esperanto
+
+All contributors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Asier Sarasua Garmendia <asier.sarasua@gmail.com>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Jordi Mas <jmas@softcatala.org>
+Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+
+3.33.90 - Aug 5, 2019
+=========================
+
+Changes since 3.33.90
+ - Fix bug going back to already selected place from the search result list
+ - Start immediatly at the last viewed location when app was closed last
+ - Remember the map type (street or aerial) from when the app was closed last
 
 Added/updated/fixed translations
+ - Karbi
+ - Romanian
+ - Spanish
+ - Friulian
+ - Basque
+ - Brazilian Portuguese
  - Croatian
 
 All contributors to this release
+Asier Sarasua Garmendia <asier.sarasua@gmail.com>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Daniel Șerbănescu <daniel@serbanescu.dk>
+Fabio Tomat <f.t.public@gmail.com>
 Goran Vidović <trebelnik2@gmail.com>
+James Westman <flyingpimonster@flyingpimonster.net>
+Jor Teron <jor.teron@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Rafael Fontenelle <rafaelff@gnome.org>
+
+3.33.4 - Jul 15, 2019
+=========================
+
+Changes since 3.33.3
+ - Handle opening OpenStreetMap URLs pointing to either an object or bare
+   coordinates by pasting it into the search entry and also as a program
+   argument, in the same manner as with geo: URIs
+
+Added/updated/fixed translations
+ - Indonesian
+ - Icelandic
+ - Slovenian
+ - Friulian
+ - Swedish
+ - Croatian
+ - Spanish
+ - Dutch
+
+All contibutors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Goran Vidović <trebelnik2@gmail.com>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Matej Urbančič <mateju@svn.gnome.org>
+Nathan Follens <nfollens@gnome.org>
+Sveinn í Felli <sv1@fellsnet.is>
+
+3.33.3 - Jun 17, 2019
+=========================
+
+Changes since 3.33.2
+ - Auto-complete searches ("search-as-you-type") using GraphHopper geocoder /
+   Photon
+ - Redesigned Send to-dialog with ability to copy and send locations in e-mails
+   and better integration with Weather and Clocks
+ - Show clockwise roundabout icons for turn-by-turn routing in
+   left-hand traffic countries and territories
+ - Update appdata screenshots with tile style
+ - Fix a crash when there's many contacts with addresses in an Evolution
+   address book
+
+Added/updated/fixed translations
+ - Indonesian
+ - Greek
+ - Spanish
+ - Hungarian
+
+All contributors to this release
+Balázs Úr <balazs@urbalazs.hu>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+James Westman <flyingpimonster@flyingpimonster.net>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+
+3.33.2 - May 20, 2019
+=========================
+
+Changes since 3.33.1
+ - Accept additional formats when entering raw coordinates in the search entry
+   (decimal lat/lon degrees format with literal ° symbol, and degrees, minutes,
+    second format)
+
+Added/updated/fixed translations
+ - Chineses (China)
+ - Indonesian
+ - Spanish
+
+All contributors to this release
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Dz Chen <wsxy162@gmail.com>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Will Burklund <waburklund@gmail.com>
+
+3.33.1 - Apr 22, 2019
+=========================
+
+Changes since 3.32.0
+ - Stop using GtkOffscreenWindow (prerequisite for eventually porting to GTK 4)
+ - Fix printing dialog not closing in some circumstances
+ - Add some missing appstream metadata
+ - Add tests validating appdata and desktop files
+ - Remove some unnessesary instructions in turn-by-turn route searches
+
+Added/updated/fixed translations
+ - Friulian
+ - Danish
+ - Croatian
+
+All contributors to this release
+Andreas Nilsson <anilsson@redhat.com>
+Ask Hjorth Larsen <asklarsen@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Goran Vidović <trebelnik2@gmail.com>
+James Westman <flyingpimonster@flyingpimonster.net>
+Kalev Lember <klember@redhat.com>
+Marcus Lundblad <ml@update.uu.se>
+Niels De Graef <nielsdegraef@gmail.com>
 
 3.32.0 - Mar 11, 2019
 =========================
