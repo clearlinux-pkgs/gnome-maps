@@ -1,3 +1,21 @@
+3.34.3 - Jan 4, 2020
+=========================
+
+Added/updated/fixed translations
+ - Malay
+
+All contributors to this release
+Umarzuki Bin Mochlis Moktar <umarzuki@gmail.com>
+
+3.34.2 - Nov 23, 2019
+=========================
+
+Changes since 3.34.1
+ - Fix encoding of Wikipedia URLs in some cases
+
+All contributors to this release
+Marcus Lundblad <ml@update.uu.se>
+
 3.34.1 - Oct 7, 2019
 =========================
 
