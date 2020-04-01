@@ -1,41 +1,216 @@
-3.34.3 - Jan 4, 2020
+3.36.1 - Mar 28, 2020
+=========================
+
+Changes since 3.36.0
+ - Updated POI definitions for OpenStreetMap editing
+ - Fixed link to sign up for an OpenStreetMap account
+ - Removed ctrl+f1 shortcut from the help overlay, since this was removed from
+   GTK
+
+Added/updated/fixed translations
+ - German
+ - Ukranian
+ - Serbian
+ - Norwegian bokmål
+ - Catalan
+ - Greek
+
+All contributors to this release
+Christian Kirbach <Christian.Kirbach@gmail.com>
+Daniel Korostil <ted.korostiled@gmail.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+James Westman <james@flyingpimonster.net>
+Jonathan Brielmaier <jonathan.brielmaier@web.de>
+Jordi Mas <jmas@softcatala.org>
+Kjartan Maraas <kmaraas@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Sabri Ünal <libreajans@gmail.com>
+Марко Костић <marko.m.kostic@gmail.com>
+
+3.36.0 - Mar 7, 2020
 =========================
 
 Added/updated/fixed translations
- - Malay
+ - Catalan
+ - Dutch
+ - Punjabi
+ - Italian
+ - Korean
+ - Polish
 
 All contributors to this release
-Umarzuki Bin Mochlis Moktar <umarzuki@gmail.com>
+Aman Alam <apreet.alam@gmail.com>
+Gianvito Cavasoli <gianvito@gmx.it>
+Jeeyong Um <conr2d@gmail.com>
+Jordi Mas <jmas@softcatala.org>
+Nathan Follens <nfollens@gnome.org>
+Piotr Drąg <piotrdrag@gmail.com>
 
-3.34.2 - Nov 23, 2019
+3.35.92 - Feb 29, 2020
 =========================
 
-Changes since 3.34.1
- - Fix encoding of Wikipedia URLs in some cases
+Added/updated/fixed translations
+ - Greek
+ - Chinese (Taiwan)
+ - Danish
+ - Persian
+ - Hungarian
+ - Basque
 
 All contributors to this release
+Alan Mortensen <alanmortensen.am@gmail.com>
+Asier Sarasua Garmendia <asier.sarasua@gmail.com>
+Balázs Meskó <mesko.balazs@fsf.hu>
+Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Danial Behzadi <dani.behzi@ubuntu.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
 Marcus Lundblad <ml@update.uu.se>
 
-3.34.1 - Oct 7, 2019
+3.35.91 - Feb 15, 2020
+=========================
+
+Changes since 3.35.90
+ - Add additional category code for busses in the Opendata.ch plugin
+
+Added/updated/fixed translations
+ - Turkish
+ - Brazilian Portuguese
+ - Galician
+ - Czech
+ - Finnish
+ - Swedish
+ - French
+ - Persian
+ - Lithuanian
+ - Croatian
+ - British English
+ - Indonesian
+
+All contributors to this release
+Anders Jonsson <anders.jonsson@norsjovallen.se>
+Aurimas Černius <aurisc4@gmail.com>
+Claude Paroz <claude@2xlibre.net>
+Danial Behzadi <dani.behzi@ubuntu.com>
+Fran Dieguez <frandieguez@gnome.org>
+Goran Vidović <trebelnik2@gmail.com>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Marek Černocký <marek@manet.cz>
+Rafael Fontenelle <rafaelff@gnome.org>
+Sabri Ünal <libreajans@gmail.com>
+Zander Brown <zbrown@gnome.org>
+
+3.35.90 - Jan 31, 2020
+=========================
+
+Changes since 3.35.3
+ - Move “Export as Image” to the hamburger menu
+ - Restructure context menu items for routing to allow changing start and
+   destination points without resetting the query from the sidebar
+ - Allow more width for the favourites popover and search result popovers
+   in the routing sidebar to better avoid clipping longer place names
+
+Added/updated/fixed translations
+ - Spanish
+ - Finnish
+ - Malay
+ - Friulian
+ - Slovak
+ - Indonesian
+ - Greek
+
+All contributors to this release
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Dušan Kazik <prescott66@gmail.com>
+Efstathios Iosifidis <eiosifidis@gnome.org>
+Fabio Tomat <f.t.public@gmail.com>
+Jiri Grönroos <jiri.gronroos@iki.fi>
+Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Marcus Lundblad <ml@update.uu.se>
+Rafael Fontenelle <rafaelff@gnome.org>
+Umarzuki Bin Mochlis Moktar <umarzuki@gmail.com>
+Yi-Jyun Pan <pan93412@gmail.com>
+
+3.35.3 - Jan 4, 2020
+=========================
+
+Changes since 3.35.3
+ - Avoid flickering when animating user location marker
+
+Added/updated/fixed translations
+ - Spanish
+ - Galician
+ - Brazilian Portuguese
+ - Esperanto
+ - Friulian
+
+All contributors to this release
+Andre Klapper <a9016009@gmx.de>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+dvijaywargiya <dvijaywargiya@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Fran Dieguez <frandieguez@gnome.org>
+James Westman <flyingpimonster@gmail.com>
+Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Rafael Fontenelle <rafaelff@gnome.org>
+
+3.35.2 - Nov 23, 2019
+=========================
+
+Changes since 3.35.1
+ - Added public transit routing plugins for Resrobot (national Swedish transit
+   API) and opendata.ch (for Switzerland)
+ - Avoid "overflowing" the sidebar when a public transit itinerary has a large
+   number of parts (legs) by ellipsizing in the middle when showing them in the
+   journeys overview
+ - Add command line option to always consider being online (--force-online) as
+   a work-around for certain VPN and proxy networks not playing well with
+   NetworkManager
+ - Set User-Agent HTTP header in places where it was missing
+
+Added/updated/fixed translations
+ - Friulian
+ - Indonesian
+ - Spanish
+ - Czech
+ - Basque
+ - Persian
+
+All contributors to this release
+Andika Triwidada <atriwidada@gnome.org>
+Asier Sarasua Garmendia <asier.sarasua@gmail.com>
+Danial Behzadi <dani.behzi@ubuntu.com>
+Daniel Mustieles <daniel.mustieles@gmail.com>
+Fabio Tomat <f.t.public@gmail.com>
+Marcus Lundblad <ml@update.uu.se>
+Marek Černocký <marek@manet.cz>
+
+3.35.1 - Oct 12, 2019
 =========================
 
 Changes since 3.34.0
- - Update tile size to 512 px when using --local option
+ - Initial support for public trasit routing/journey planning using third-party
+   service providers
+ - Add nightly app icon (currently not installed, awaiting support for dual
+   installations)
+ - Update default tile size when using local tiles
 
 Added/updated/fixed translations
+ - Spanish
  - Danish
  - Slovak
- - Persian
  - Dutch
  - Friulian
  - Italian
 
 All contributors to this release
 Ask Hjorth Larsen <asklarsen@gmail.com>
-Danial Behzadi <dani.behzi@ubuntu.com>
+Daniel Mustieles <daniel.mustieles@gmail.com>
 Dušan Kazik <prescott66@gmail.com>
 Fabio Tomat <f.t.public@gmail.com>
 Gianvito Cavasoli <gianvito@gmx.it>
+Jakub Steiner <jimmac@gmail.com>
 Marcus Lundblad <ml@update.uu.se>
 Nathan Follens <nfollens@gnome.org>
 
